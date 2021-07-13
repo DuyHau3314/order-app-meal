@@ -1,0 +1,13 @@
+.single-meal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.left > * {
+    margin: 10px 0;
+}
+
+.price {
+    color: rgb(224, 135, 33);
+}

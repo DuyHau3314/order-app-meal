@@ -1,0 +1,12 @@
+.meal-description {
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: rgb(65, 62, 62);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.meal-description > *:not(:last-child){
+    margin-bottom: .8rem;
+}
+

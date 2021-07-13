@@ -1,0 +1,22 @@
+.menu-meals {
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.menu-meals ul {
+    list-style: none;
+    border-bottom: 1px solid rgb(66, 65, 65);
+}
+
+@keyframes showUp {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
